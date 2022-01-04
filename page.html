@@ -202,7 +202,7 @@
                                 <div class="col-xs-12 col-sm-5">
                                     <div class="info-list">
                                         <ul>
-                                            <?php
+                                            <!-- <?php
                                             //date in mm/dd/yyyy format; or it can be in other formats as well
                                             $birthDate = "09/27/1996";
                                             //explode the date to get month, day and year
@@ -211,11 +211,10 @@
                                             $age = (date("md", date("U", mktime(0, 0, 0, $birthDate[0], $birthDate[1], $birthDate[2]))) > date("md")
                                                 ? ((date("Y") - $birthDate[2]) - 1)
                                                 : (date("Y") - $birthDate[2]));
-                                            ?>
+                                            ?> -->
                                                 <li>
-                                                    <span class="title">Age</span>
-                                                    <span class="value"><?php
-                                                                    echo $age ?></span>
+                                                    <span class="title">birth of date</span>
+                                                    <span class="value">27 September 1996</span>
                                                 </li>
 
                                                 <li>
